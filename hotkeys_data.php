@@ -1,16 +1,18 @@
 <?php
+if(!function_exists('t')){ function t($a){return $a;} }
+
 return ( [
-    'all editor text' => [
-        'select a word' => 'Ctrl + Shift + ->',
-        'jump a word' => 'Ctrl + ->'
+    t('all editor text') => [
+        t('select a word') => t('Ctrl + Shift + ->'),
+        t('jump a word') => t('Ctrl + ->'),
     ],
-    'excel' => [
-        'Add Filter' => 'Ctrl + Shift + L',
+    t('excel') => [
+        t('Add Filter') => t('Ctrl + Shift + L'),
     ],
-    'PhpStrom' => [
-       'Reformat code' => 'Ctrl + Alt + L',
+    t('PhpStrom') => [
+        t('Reformat code') => t('Ctrl + Alt + L'),
     ],
-    'Netbeans' => [
-        'Reformat code' => 'Alt + Shift + F',
+    t('Netbeans') => [
+        t('Reformat code') => t('Alt + Shift + F'),
     ],
 ]);
