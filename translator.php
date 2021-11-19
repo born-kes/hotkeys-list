@@ -44,17 +44,21 @@ function reLocationMessage($param = '') :string
 }
 
 return;
-echo '<pre>';
-echo t('test %s www', []);
-echo PHP_EOL;
-echo t('', ['mama']);
-echo PHP_EOL;
-echo t('', ['kes']);
-echo PHP_EOL;
-echo t('', ['kes'], false);
-echo PHP_EOL;
-echo t('',['']);
-echo PHP_EOL;
-echo t('next test','');
-echo PHP_EOL;
-echo t('params null %s test');
+// test use function
+echo '<pre>' . PHP_EOL; ?>
+
+ <?= t('test %s www', []);?>
+ 
+ <?= t('', ['mama']);?>
+ 
+ <?= t('', ['kes']);?>
+ 
+ <?= t('', ['kes'], false);?>
+ 
+ <?= t('',['']);?>
+ 
+ <?= t('next test','');?>
+ 
+ <?= t('params null %s test');?>
+ 
+<?php die;?>
