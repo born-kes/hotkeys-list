@@ -8,6 +8,7 @@ return ( [
     ],
     t('excel') => [
         t('Add Filter') => t('Ctrl + Shift + L'),
+		t('Save as') => t('Alt + F12'),
     ],
     t('PhpStrom') => [
         t('Reformat code') => t('Ctrl + Alt + L'),
