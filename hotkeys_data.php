@@ -1,5 +1,8 @@
 <?php
 if(!function_exists('t')){ function t($a){return $a;} }
+define('CTRL', t('Ctrl') );
+define('SHIFT', t('Shift') );
+define('DOWN_ARROW', t('↓') );
 
 return ( [
     t('all editor text') => [
@@ -9,6 +12,7 @@ return ( [
     t('excel') => [
         t('Add Filter') => t('Ctrl + Shift + L'),
 		t('Save as') => t('Alt + F12'),
+		t('Select all to the first blank')=> t('%s + %s + %s', [CTRL, SHIFT, DOWN_ARROW]),
     ],
     t('PhpStrom') => [
         t('Reformat code') => t('Ctrl + Alt + L'),
