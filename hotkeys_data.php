@@ -14,7 +14,7 @@ return ( [
     ],
     t('excel') => [
         t('Add Filter') => t('Ctrl + Shift + L'),
-		t('Save as') => t('Alt + F12'),
+		t('Save as') => t('F12'),
 		t('Select all to the first blank')=> t('%s + %s + %s', [CTRL, SHIFT, DOWN_ARROW]),
     ],
     t('PhpStrom') => [
