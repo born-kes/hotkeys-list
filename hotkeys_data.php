@@ -2,6 +2,7 @@
 if(!function_exists('t')){ function t($a){return $a;} }
 define('CTRL', t('Ctrl') );
 define('SHIFT', t('Shift') );
+define('SPACE', t('Space') );
 define('DOWN_ARROW', t('↓') );
 define('UPWARDS_ARROW', t('↑') );
 define('LEFTWARDS_ARROW', t('←') );
@@ -18,6 +19,7 @@ return ( [
 		t('Select all to the first blank')=> t('%s + %s + %s', [CTRL, SHIFT, DOWN_ARROW]),
     ],
     t('PhpStrom') => [
+        t('Autotext') => t('%s + %s', [CTRL, SPACE]),
         t('Reformat code') => t('Ctrl + Alt + L'),
     ],
     t('Netbeans') => [
