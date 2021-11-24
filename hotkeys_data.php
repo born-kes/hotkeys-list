@@ -17,6 +17,7 @@ return ( [
         t('Add Filter') => t('Ctrl + Shift + L'),
 		t('Save as') => t('F12'),
 		t('Select all to the first blank')=> t('%s + %s + %s', [CTRL, SHIFT, DOWN_ARROW]),
+		t('Insert tables')=> t('%s + %s',[CTRL, t('T')])
     ],
     t('PhpStrom') => [
         t('Autotext') => t('%s + %s', [CTRL, SPACE]),
