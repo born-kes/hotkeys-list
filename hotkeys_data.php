@@ -25,5 +25,6 @@ return ( [
     ],
     t('Netbeans') => [
         t('Reformat code') => t('Alt + Shift + F'),
+        t('Open / Navigate to declaration') => t('%s + %s', [CTRL, 'B']),
     ],
 ]);
