@@ -7,6 +7,7 @@ define('DOWN_ARROW', t('↓') );
 define('UPWARDS_ARROW', t('↑') );
 define('LEFTWARDS_ARROW', t('←') );
 define('RIGHTWARDS_ARROW', t('→') );
+define('BACKSPACE', t('Backspace') );
 
 return ( [
     t('all editor text') => [
@@ -17,7 +18,8 @@ return ( [
         t('Add Filter') => t('Ctrl + Shift + L'),
 		t('Save as') => t('F12'),
 		t('Select all to the first blank')=> t('%s + %s + %s', [CTRL, SHIFT, DOWN_ARROW]),
-		t('Insert tables')=> t('%s + %s',[CTRL, t('T')])
+		t('Insert tables')=> t('%s + %s',[CTRL, t('T')]),
+		t('jump to the Active Cell')=> t('%s + %s',[CTRL, BACKSPACE]),
     ],
     t('PhpStrom') => [
         t('Autotext') => t('%s + %s', [CTRL, SPACE]),
