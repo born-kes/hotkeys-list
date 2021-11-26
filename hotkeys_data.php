@@ -12,6 +12,7 @@ define('BACKSPACE', t('Backspace') );
 return ( [
     t('all editor text') => [
         t('select a word') => t('Ctrl + Shift + ->'),
+        t('Delete a word') => t('%s + $s', [CTRL, BACKSPACE]),
         t('jump a word') => t('Ctrl + ->'),
     ],
     t('excel') => [
@@ -19,7 +20,7 @@ return ( [
 		t('Save as') => t('F12'),
 		t('Select all to the first blank')=> t('%s + %s + %s', [CTRL, SHIFT, DOWN_ARROW]),
 		t('Insert tables')=> t('%s + %s',[CTRL, t('T')]),
-		t('jump to the Active Cell')=> t('%s + %s',[CTRL, BACKSPACE]),
+		t('Jump to the Active Cell')=> t('%s + %s',[CTRL, BACKSPACE]),
     ],
     t('PhpStrom') => [
         t('Autotext') => t('%s + %s', [CTRL, SPACE]),
