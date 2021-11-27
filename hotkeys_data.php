@@ -21,6 +21,7 @@ return ( [
 		t('Select all to the first blank')=> t('%s + %s + %s', [CTRL, SHIFT, DOWN_ARROW]),
 		t('Insert tables')=> t('%s + %s',[CTRL, t('T')]),
 		t('Jump to the Active Cell')=> t('%s + %s',[CTRL, BACKSPACE]),
+		t('Add or edit a cell') => t('%s + %s',[SHIFT, t('F2')]), 
     ],
     t('PhpStrom') => [
         t('Autotext') => t('%s + %s', [CTRL, SPACE]),
