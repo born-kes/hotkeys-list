@@ -32,5 +32,6 @@ return ( [
         t('Reformat code') => t('Alt + Shift + F'),
         t('Open / Navigate to declaration') => t('%s + %s', [CTRL, 'B']),
 		t('Search excerpt text') => t('%s + %s',[CTRL, t('F3')]),
+		t('Search class and open edit') => t('%s + %s',[CTRL, t('o')]),
     ],
 ]);
