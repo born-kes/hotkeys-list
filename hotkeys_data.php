@@ -34,5 +34,6 @@ return ( [
 		t('Search excerpt text') => t('%s + %s',[CTRL, t('F3')]),
 		t('Search class and open edit') => t('%s + %s',[CTRL, t('o')]),
 		t('Back to last edit place') => t('%s + %s', [CTRL, 'Q']),
+		t('Add ; to the end of the line') => t('%s + %s', [CTRL, t(';')]),
     ],
 ]);
