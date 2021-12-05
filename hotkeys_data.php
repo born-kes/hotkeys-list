@@ -11,6 +11,7 @@ define('BACKSPACE', t('Backspace') );
 
 return ( [
     t('all editor text') => [
+		t('Select all words') => t('%s + %s', [CTRL, t('a')]),
         t('select a word') => t('Ctrl + Shift + ->'),
         t('Delete a word') => t('%s + $s', [CTRL, BACKSPACE]),
         t('jump a word') => t('Ctrl + ->'),
