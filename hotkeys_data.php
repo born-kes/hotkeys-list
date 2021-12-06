@@ -3,6 +3,7 @@ if(!function_exists('t')){ function t($a){return $a;} }
 define('CTRL', t('Ctrl') );
 define('SHIFT', t('Shift') );
 define('SPACE', t('Space') );
+define('WIN', t('Window-key') );
 define('DOWN_ARROW', t('↓') );
 define('UPWARDS_ARROW', t('↑') );
 define('LEFTWARDS_ARROW', t('←') );
@@ -10,6 +11,9 @@ define('RIGHTWARDS_ARROW', t('→') );
 define('BACKSPACE', t('Backspace') );
 
 return ( [
+	t('System') => [
+		t('Unlogging from windows') => t('%s + %s' ,[ WIN, t('L')]),
+	],
     t('all editor text') => [
 		t('Select all words') => t('%s + %s', [CTRL, t('a')]),
 		t('Undo the last change') => t('%s + %s', [CTRL, t('z') ]), 
