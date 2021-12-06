@@ -41,8 +41,8 @@ return ( [
 		t('Show suggested or options auto-suggestions ') => t('%s + %s', [ALT, ENTER]),
     ],
     t('Netbeans') => [
-		t('Navigate to file') => t('%s + %s + %s' [CTRL, ALT, 'o']),
-		t('Go to line') => t('%s + %s' [CTRL, 'g']),
+		t('Navigate to file') => t('%s + %s + %s', [CTRL, ALT, 'o']),
+		t('Go to line') => t('%s + %s', [CTRL, 'g']),
         t('Reformat code') => t('%s + %s +s',[ALT, SHIFT, 'F']),
         t('Open / Navigate to declaration') => t('%s + %s', [CTRL, 'B']),
 		t('Search excerpt text') => t('%s + %s',[CTRL, t('F3')]),
@@ -52,6 +52,6 @@ return ( [
 		t('Add ; to the end of the line and enter to new line') => t('%s + %s + %s', [CTRL, SHIFT, t(';')]),
 		t('Show suggested or options auto-suggestions ') => t('%s + %s', [ALT, ENTER]),
 		t('Recent files') => t('%s + %s + %s', [CTRL, SHIFT, t('t')]),
-		t('File switcher') => t('%s + %s + %s', [CTRL, TAB]),
+		t('File switcher') => t('%s + %s', [CTRL, TAB]),
     ],
 ]);
