@@ -53,5 +53,6 @@ return ( [
 		t('Show suggested or options auto-suggestions ') => t('%s + %s', [ALT, ENTER]),
 		t('Recent files') => t('%s + %s + %s', [CTRL, SHIFT, t('t')]),
 		t('File switcher') => t('%s + %s', [CTRL, TAB]),
+		t('Switcher navigation') => t('%s + %s + %s', [CTRL, SHIFT, TAB]),
     ],
 ]);
