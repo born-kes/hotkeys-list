@@ -1,8 +1,10 @@
 <?php
 if(!function_exists('t')){ function t($a){return $a;} }
+define('ALT', t('Alt') );
 define('CTRL', t('Ctrl') );
 define('SHIFT', t('Shift') );
 define('SPACE', t('Space') );
+define('ENTER', t('Enter') );
 define('WIN', t('Window-key') );
 define('DOWN_ARROW', t('↓') );
 define('UPWARDS_ARROW', t('↑') );
@@ -34,6 +36,7 @@ return ( [
     t('PhpStrom') => [
         t('Autotext') => t('%s + %s', [CTRL, SPACE]),
         t('Reformat code') => t('Ctrl + Alt + L'),
+		t('Show suggested or options auto-suggestions ') => t('%s + %s', [ALT, ENTER]),
     ],
     t('Netbeans') => [
         t('Reformat code') => t('Alt + Shift + F'),
@@ -43,5 +46,6 @@ return ( [
 		t('Back to last edit place') => t('%s + %s', [CTRL, 'Q']),
 		t('Add ; to the end of the line') => t('%s + %s', [CTRL, t(';')]),
 		t('Add ; to the end of the line and enter to new line') => t('%s + %s + %s', [CTRL, SHIFT, t(';')]),
+		t('Show suggested or options auto-suggestions ') => t('%s + %s', [ALT, ENTER]),
     ],
 ]);
