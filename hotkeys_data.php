@@ -15,6 +15,7 @@ define('BACKSPACE', t('Backspace') );
 return ( [
 	t('System') => [
 		t('Unlogging from windows') => t('%s + %s' ,[ WIN, t('L')]),
+		t('Hidden all windows, show desktop') => t('%s + %s', [WIN, t('d')]), 
 	],
     t('all editor text') => [
 		t('Select all words') => t('%s + %s', [CTRL, t('a')]),
