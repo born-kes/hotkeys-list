@@ -40,7 +40,7 @@ return ( [
 		t('Show suggested or options auto-suggestions ') => t('%s + %s', [ALT, ENTER]),
     ],
     t('Netbeans') => [
-        t('Reformat code') => t('Alt + Shift + F'),
+        t('Reformat code') => t('%s + %s +s',[ALT, SHIFT, 'F']),
         t('Open / Navigate to declaration') => t('%s + %s', [CTRL, 'B']),
 		t('Search excerpt text') => t('%s + %s',[CTRL, t('F3')]),
 		t('Search class and open edit') => t('%s + %s',[CTRL, t('o')]),
