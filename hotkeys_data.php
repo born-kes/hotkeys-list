@@ -41,6 +41,7 @@ return ( [
     ],
     t('Netbeans') => [
 		t('Navigate to file') => t('%s + %s + %s' [CTRL, ALT, 'o']),
+		t('Go to line') => t('%s + %s' [CTRL, 'g']),
         t('Reformat code') => t('%s + %s +s',[ALT, SHIFT, 'F']),
         t('Open / Navigate to declaration') => t('%s + %s', [CTRL, 'B']),
 		t('Search excerpt text') => t('%s + %s',[CTRL, t('F3')]),
