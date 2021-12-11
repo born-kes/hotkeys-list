@@ -50,5 +50,6 @@ return ( [
 		t('Add ; to the end of the line') => t('%s + %s', [CTRL, t(';')]),
 		t('Add ; to the end of the line and enter to new line') => t('%s + %s + %s', [CTRL, SHIFT, t(';')]),
 		t('Show suggested or options auto-suggestions ') => t('%s + %s', [ALT, ENTER]),
+		t('Recent files') => t('%s + %s + %s', [CTRL, SHIFT, t('t')]),
     ],
 ]);
