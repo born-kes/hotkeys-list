@@ -5,6 +5,7 @@ define('CTRL', t('Ctrl') );
 define('SHIFT', t('Shift') );
 define('SPACE', t('Space') );
 define('ENTER', t('Enter') );
+define('TAB', t('Tab') );
 define('WIN', t('Window-key') );
 define('DOWN_ARROW', t('↓') );
 define('UPWARDS_ARROW', t('↑') );
@@ -51,5 +52,6 @@ return ( [
 		t('Add ; to the end of the line and enter to new line') => t('%s + %s + %s', [CTRL, SHIFT, t(';')]),
 		t('Show suggested or options auto-suggestions ') => t('%s + %s', [ALT, ENTER]),
 		t('Recent files') => t('%s + %s + %s', [CTRL, SHIFT, t('t')]),
+		t('File switcher') => t('%s + %s + %s', [CTRL, TAB]),
     ],
 ]);
