@@ -54,5 +54,7 @@ return ( [
 		t('Recent files') => t('%s + %s + %s', [CTRL, SHIFT, t('t')]),
 		t('File switcher') => t('%s + %s', [CTRL, TAB]),
 		t('Switcher navigation') => t('%s + %s + %s', [CTRL, SHIFT, TAB]),
+		
+		t('Delete row') => t('%s + %s', [CTRL, 'e']),
     ],
 ]);
