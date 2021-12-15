@@ -56,6 +56,9 @@ return ( [
 		t('Switcher navigation') => t('%s + %s + %s', [CTRL, SHIFT, TAB]),
 		t('Carry over a piece of code up') => t('%s + %s + %s', [ALT, SHIFT, UPWARDS_ARROW]),
 		t('Carry over a piece of code down') => t('%s + %s + %s', [ALT, SHIFT, DOWN_ARROW]),
+		t('Carry over a piece of code left') => t('%s + %s + %s', [ALT, SHIFT, LEFTWARDS_ARROW]),
+		t('Carry over a piece of code right') => t('%s + %s + %s', [ALT, SHIFT, RIGHTWARDS_ARROW]),
+		
 		
 		t('Delete row') => t('%s + %s', [CTRL, 'e']),
     ],
