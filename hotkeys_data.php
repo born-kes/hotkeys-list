@@ -61,5 +61,6 @@ return ( [
 		
 		
 		t('Delete row') => t('%s + %s', [CTRL, 'e']),
+		t('Delete word') => t('%s + %s', [SHIFT, 'BACKSPACE']),
     ],
 ]);
