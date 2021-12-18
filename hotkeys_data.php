@@ -60,6 +60,8 @@ return ( [
 		t('Carry over a piece of code right') => t('%s + %s + %s', [ALT, SHIFT, RIGHTWARDS_ARROW]),
 		
 		t('Organiation inport or fix namespace') => t('%s + %s + %s', [CTRL, SHIFT, 'i']),
+		t('Toggles comment for current line') => t('%s + %s + %s', [CTRL, SHIFT, 'c']),
+		t('Toggles comment for current line') => t('%s + %s', [CTRL, '/']),
 		
 		t('Delete row') => t('%s + %s', [CTRL, 'e']),
 		t('Delete word') => t('%s + %s', [SHIFT, 'BACKSPACE']),
