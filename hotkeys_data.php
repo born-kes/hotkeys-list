@@ -5,6 +5,7 @@ define('CTRL', t('Ctrl') );
 define('SHIFT', t('Shift') );
 define('SPACE', t('Space') );
 define('ENTER', t('Enter') );
+define('INSERT', t('Insert') );
 define('TAB', t('Tab') );
 define('WIN', t('Window-key') );
 define('DOWN_ARROW', t('↓') );
