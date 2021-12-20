@@ -64,6 +64,9 @@ return ( [
 		t('Toggles comment for current line') => t('%s + %s + %s', [CTRL, SHIFT, 'c']),
 		t('Toggles comment for current line') => t('%s + %s', [CTRL, '/']),
 		t('Show context menu') => t('%s + %s', [ALT, INSERT]),
+		t('Select in projects/files/favorites') => t('%s + %s + %s', [CTRL, SHIFT, '1']),
+		t('Select in projects/files/favorites') => t('%s + %s + %s', [CTRL, SHIFT, '2']),
+		t('Select in projects/files/favorites') => t('%s + %s + %s', [CTRL, SHIFT, '3']),
 		
 		t('Delete row') => t('%s + %s', [CTRL, 'e']),
 		t('Delete word') => t('%s + %s', [SHIFT, 'BACKSPACE']),
