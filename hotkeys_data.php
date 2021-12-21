@@ -59,6 +59,8 @@ return ( [
 		t('Carry over a piece of code down') => t('%s + %s + %s', [ALT, SHIFT, DOWN_ARROW]),
 		t('Carry over a piece of code left') => t('%s + %s + %s', [ALT, SHIFT, LEFTWARDS_ARROW]),
 		t('Carry over a piece of code right') => t('%s + %s + %s', [ALT, SHIFT, RIGHTWARDS_ARROW]),
+		t('Go to/back to lase edit') => t('%s + %s', [ALT, LEFTWARDS_ARROW]),
+		t('Go to/back to lase edit') => t('%s + %s', [ALT, RIGHTWARDS_ARROW]),
 		
 		t('Organiation inport or fix namespace') => t('%s + %s + %s', [CTRL, SHIFT, 'i']),
 		t('Toggles comment for current line') => t('%s + %s + %s', [CTRL, SHIFT, 'c']),
