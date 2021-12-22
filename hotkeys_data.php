@@ -46,6 +46,7 @@ return ( [
 		t('Go to line') => t('%s + %s', [CTRL, 'g']),
         t('Reformat code') => t('%s + %s +s',[ALT, SHIFT, 'F']),
         t('Open / Navigate to declaration') => t('%s + %s', [CTRL, 'B']),
+        t('Open file in brower') => t('%s', ['F6']),
 		t('Search excerpt text') => t('%s + %s',[CTRL, t('F3')]),
 		t('Search class and open edit') => t('%s + %s',[CTRL, t('o')]),
 		t('Back to last edit place') => t('%s + %s', [CTRL, 'Q']),
