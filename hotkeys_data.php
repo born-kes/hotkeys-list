@@ -71,6 +71,8 @@ return ( [
 		t('Select in projects/files/favorites') => t('%s + %s + %s', [CTRL, SHIFT, '2']),
 		t('Select in projects/files/favorites') => t('%s + %s + %s', [CTRL, SHIFT, '3']),
 		
+		t('Run Unit test') => t('%s + %s', [CTRL, 'F6']),
+		t('Run Unit test') => t('%s + %s', [ALT, 'F6']),
 		t('Delete row') => t('%s + %s', [CTRL, 'e']),
 		t('Delete word') => t('%s + %s', [SHIFT, 'BACKSPACE']),
     ],
