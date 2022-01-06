@@ -33,6 +33,7 @@ return ( [
 		t('Jump to the Active Cell')=> t('%s + %s',[CTRL, BACKSPACE]),
 		t('Add or edit a cell') => t('%s + %s',[SHIFT, t('F2')]), 
 		t('Change the cell format') => t('%s + %s + ( %s )',[CTRL, SHIFT, t('numeric 1-6 or `')]),
+		t('Open edit visual basic') => t('%s + %s',[ALT, 'F11']),
     ],
     t('PhpStrom') => [
         t('Autotext') => t('%s + %s', [CTRL, SPACE]),
