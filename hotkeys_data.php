@@ -42,6 +42,7 @@ return ( [
 		t('Show suggested or options auto-suggestions ') => t('%s + %s', [ALT, ENTER]),
     ],
     t('Netbeans') => [
+		t('Select all') => t('%s + %s', [CTRL, 'a']),
 		t('Navigate to file') => t('%s + %s + %s', [CTRL, ALT, 'o']),
 		t('Go to line') => t('%s + %s', [CTRL, 'g']),
         t('Reformat code') => t('%s + %s +s',[ALT, SHIFT, 'F']),
