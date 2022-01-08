@@ -27,6 +27,7 @@ return ( [
     ],
     t('excel') => [
 		t('Check all')=> t('%s + %s',[CTRL, 'a']),
+		t('Check full row')=> t('%s + %s + %s',[CTRL, SHIFT, RIGHTWARDS_ARROW]),
         t('Add Filter') => t('Ctrl + Shift + L'),
 		t('Save as') => t('F12'),
 		t('Select all to the first blank')=> t('%s + %s + %s', [CTRL, SHIFT, DOWN_ARROW]),
