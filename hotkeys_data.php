@@ -26,6 +26,7 @@ return ( [
         t('jump a word') => t('Ctrl + ->'),
     ],
     t('excel') => [
+		t('Copy to clipboard')=> t('%s + %s',[CTRL, 'c']),
 		t('Check all')=> t('%s + %s',[CTRL, 'a']),
 		t('Check full row')=> t('%s + %s + %s',[CTRL, SHIFT, RIGHTWARDS_ARROW]),
 		t('Check full column')=> t('%s + %s + %s',[CTRL, SHIFT, DOWN_ARROW]),
