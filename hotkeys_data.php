@@ -27,6 +27,7 @@ return ( [
     ],
     t('excel') => [
 		t('Copy to clipboard')=> t('%s + %s',[CTRL, 'c']),
+		t('Paste window')=> t('%s + %s',[CTRL, ALT, 'v']),
 		t('Check all')=> t('%s + %s',[CTRL, 'a']),
 		t('Check full row')=> t('%s + %s + %s',[CTRL, SHIFT, RIGHTWARDS_ARROW]),
 		t('Check full column')=> t('%s + %s + %s',[CTRL, SHIFT, DOWN_ARROW]),
