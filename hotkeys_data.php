@@ -6,6 +6,8 @@ define('CTRL', t('Ctrl'));
 define('SHIFT', t('Shift'));
 define('SPACE', t('Space'));
 define('ENTER', t('Enter'));
+define('INSERT', t('Insert') );
+define('TAB', t('Tab') );
 define('WIN', t('Window-key'));
 define('DOWN_ARROW', t('↓'));
 define('UPWARDS_ARROW', t('↑'));
@@ -47,13 +49,38 @@ return ( [
 		t('Show suggested or options auto-suggestions ') => t('%s + %s', [ALT, ENTER]),
     ],
     t('Netbeans') => [
-        t('Reformat code') => t('Alt + Shift + F'),
+		t('Select all') => t('%s + %s', [CTRL, 'a']),
+		t('Navigate to file') => t('%s + %s + %s', [CTRL, ALT, 'o']),
+		t('Go to line') => t('%s + %s', [CTRL, 'g']),
+        t('Reformat code') => t('%s + %s +s',[ALT, SHIFT, 'F']),
         t('Open / Navigate to declaration') => t('%s + %s', [CTRL, 'B']),
+        t('Open file in brower') => t('%s', ['F6']),
 		t('Search excerpt text') => t('%s + %s',[CTRL, t('F3')]),
 		t('Search class and open edit') => t('%s + %s',[CTRL, t('o')]),
 		t('Back to last edit place') => t('%s + %s', [CTRL, 'Q']),
 		t('Add ; to the end of the line') => t('%s + %s', [CTRL, t(';')]),
 		t('Add ; to the end of the line and enter to new line') => t('%s + %s + %s', [CTRL, SHIFT, t(';')]),
 		t('Show suggested or options auto-suggestions ') => t('%s + %s', [ALT, ENTER]),
+		t('Recent files') => t('%s + %s + %s', [CTRL, SHIFT, t('t')]),
+		t('File switcher') => t('%s + %s', [CTRL, TAB]),
+		t('Switcher navigation') => t('%s + %s + %s', [CTRL, SHIFT, TAB]),
+		t('Carry over a piece of code up') => t('%s + %s + %s', [ALT, SHIFT, UPWARDS_ARROW]),
+		t('Carry over a piece of code down') => t('%s + %s + %s', [ALT, SHIFT, DOWN_ARROW]),
+		t('Carry over a piece of code left') => t('%s + %s + %s', [ALT, SHIFT, LEFTWARDS_ARROW]),
+		t('Carry over a piece of code right') => t('%s + %s + %s', [ALT, SHIFT, RIGHTWARDS_ARROW]),
+		t('Go to/back to lase edit') => t('%s + %s', [ALT, LEFTWARDS_ARROW]),
+		t('Go to/back to lase edit') => t('%s + %s', [ALT, RIGHTWARDS_ARROW]),
+		
+		t('Organiation inport or fix namespace') => t('%s + %s + %s', [CTRL, SHIFT, 'i']),
+		t('Toggles comment for current line') => t('%s + %s + %s', [CTRL, SHIFT, 'c']),
+		t('Toggles comment for current line - secont method') => t('%s + %s', [CTRL, '/']),
+		t('Show context menu') => t('%s + %s', [ALT, INSERT]),
+		t('Select in projects/files/favorites') => t('%s + %s + %s', [CTRL, SHIFT, '1-3']),
+		
+		t('Run debuger') => t('%s + %s', [CTRL, 'F5']),
+		t('Run Unit test') => t('%s + %s', [CTRL, 'F6']),
+		t('Run Unit test - secont method') => t('%s + %s', [ALT, 'F6']),
+		t('Delete row') => t('%s + %s', [CTRL, 'e']),
+		t('Delete word') => t('%s + %s', [SHIFT, 'BACKSPACE']),
     ],
 ]);
