@@ -1,11 +1,13 @@
 [demoJson]: https://born-kes.github.io/hotkeys-list/demo.json
-[history]: https://github.com/born-kes/hotkeys-list/blame/217f33f5/hotkeys_data.php
+[history]: https://github.com/born-kes/hotkeys-list/blame/675bdd6a/hotkeys_data.php
+
 # repository of keyboard shortcuts
 
 
 ## live demo
+see stories Blame [here][history]
+
 json file you can view [here][demoJson]
-see stories Blame [hear][history]
 
 ## Short description
 The task of this project is to testing the usefulness of the comit history.
